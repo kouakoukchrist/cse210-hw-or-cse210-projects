@@ -1,4 +1,3 @@
-// Exceeding core requirements:
 // I added a search feature that allows the user to search journal entries
 // by keyword and display only the matching entries.
 
