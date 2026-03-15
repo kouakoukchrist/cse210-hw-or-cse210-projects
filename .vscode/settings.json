@@ -4,5 +4,8 @@
     "plaintext": false,
     "markdown": false,
     "csharp": false
+  },
+  "terminal.integrated.env.osx": {
+    "PATH": "/usr/local/share/dotnet:${env:PATH}"
   }
 }
