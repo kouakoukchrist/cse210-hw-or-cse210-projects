@@ -1,5 +1,7 @@
 using System;
 
+// I have added in Goals.cs and and If statement in Quest Manager to get the current state of the goal.
+// To verify whether or not if th was completed, and returned a congratitulation message for the user. 
 class Program
 {
     static void Main(string[] args)
