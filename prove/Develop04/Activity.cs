@@ -26,7 +26,7 @@ public class Activity
 
         if (!int.TryParse(Console.ReadLine(), out _duration))
         {
-            _duration = 30; // Default if input is invalid
+            _duration = 30;
         }
 
         Console.Clear();
