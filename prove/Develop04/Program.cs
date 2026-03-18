@@ -2,9 +2,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Description for Creativity/Exceeding Requirements:
-        // 1. Added logic in Reflecting activity to ensure random questions do not repeat until all have been used.
-        // 2. Added input validation for activity duration to prevent program crashes.
+        
+        // 1. I added logic in Reflecting activity to ensure random questions
+        //  do not repeat until all have been used.
+        // 2. I added input validation for activity duration to prevent program crashes.
 
         string choice = "";
         while (choice != "4")
