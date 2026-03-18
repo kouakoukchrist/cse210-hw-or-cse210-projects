@@ -42,7 +42,6 @@ public class Reflecting : Activity
         DateTime endTime = DateTime.Now.AddSeconds(GetDuration());
         while (DateTime.Now < endTime)
         {
-            // Creativity: Don't repeat questions until all are used
             if (_unusedQuestions.Count == 0) _unusedQuestions = new List<string>(_questions);
             
             int index = rnd.Next(_unusedQuestions.Count);
