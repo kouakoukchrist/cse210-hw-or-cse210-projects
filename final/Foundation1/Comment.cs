@@ -2,10 +2,22 @@ using System;
 
 public class Comment
 {
-    public string _comment;
+    public string _text;
+    public string _name;
 
-public Comment( string comment)
+public Comment( string text, string name)
     {
-        _comment = comment;
+        _text = text;
+        _name = name ;
+    }
+
+    public string GetText()
+    {
+        return _text;
+    }
+
+    public string GetName()
+    {
+        return _name;
     }
 }
