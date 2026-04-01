@@ -6,7 +6,7 @@ class Program
     {
       Address A1 = new Address("625 South Fourth Avenue","Pocatello","Idaho","USA");
       Address A2 = new Address("1365 South Fourth Avenue","Rexburg","Idaho","USA");
-      Address A3 = new Address("7893 East Fourth Avenue","Seattle","Washington","USA");
+      Address A3 = new Address("7893 East Fourth Avenue","Canberra","Sydney","Autralia");
 
 
       Customer C1 = new Customer("Christ KOUAKOU", A1);

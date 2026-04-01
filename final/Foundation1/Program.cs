@@ -52,7 +52,7 @@ class Program
 
          foreach(Comment comment in video.GetComments())
         {
-            Console.WriteLine( "Commenter Name:" + " " + comment.GetName() + " " + comment.GetText());
+            Console.WriteLine( "Commenter Name:" + " " + comment.GetName() + "~" + " "+ comment.GetText());
             Console.WriteLine();
 
         }

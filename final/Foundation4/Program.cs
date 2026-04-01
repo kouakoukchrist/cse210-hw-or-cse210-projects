@@ -29,6 +29,8 @@ class Program
         {
         Console.WriteLine(activity.GetSummary());
         Console.WriteLine("------------------");
+        
+
         }
     }
 }
